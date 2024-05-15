@@ -31,3 +31,4 @@ export const CHAMPIONS = [
   "Nathan Frazer & Axiom",
   "Charlie Dempsey",
 ];
+// Here are both of the arrays used in the project.
