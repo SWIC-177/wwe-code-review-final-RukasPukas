@@ -1,5 +1,5 @@
-import { BELTS, CHAMPIONS } from "./data";
-import { filterItemsByTerm } from "./lib";
+import { BELTS, CHAMPIONS } from "./data"; // Import Belts and Champions Arrays
+import { filterItemsByTerm } from "./lib"; // Import Function of filtering search items by Term
 
 export class State {
   #belts = BELTS;
@@ -29,3 +29,4 @@ export class State {
     this.#search = value;
   }
 }
+// Here the Belts and champions data are filtered through when searching. All non viable options are determined and given a value of true or false based on the filterItemsByTerm function. If I am understanding this correctly if the values are deemed false than the table values are remodified only containing the potentially available items while removing the non viable items.
